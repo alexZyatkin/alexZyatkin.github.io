@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | ECleanOcean</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="../..//style_page.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/ECleanerOcean_v0.2.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="profile-card">
+        <div class="profile-card__game">
+          <div class="profile-card__name">E<s>arth&</s>CleanOcean</div>
+          <p class="profile-card-inf__txt">Довольно простой проект с моей векторной графикой. Простое управление и нетрудная цель, но глубокая мысль.
+            О проблеме загрязнения океана известно каждому, но не все понимают ее масштаб.Можно долго наезжать лодочкой на бутылки и тарелки, тем самым собирая их, но, к сожалению, один человек не сможет исправить эту проблему.
+            Проект сыроват. Планирую увеличение уровня сложности, добавление сохранения результатов через PlayerPrefs, ввести валюту за собранный мусор, магазин с разными кораблями, возможно бустерами, hp игрока.
+          </p>
+          <p class="profile-card-inf__txt"></p>
+        </div>
+        <div class="webgl-content">
+          <div id="unityContainer"></div>
+        <!-- <div class="footer">
+          <div class="webgl-logo"></div>
+          <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+          <div class="title">ECleanOcean</div>
+        </div> -->
+        </div>
+      </div>
+    </div>  
+  </body>
+</html>
