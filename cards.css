@@ -81,6 +81,33 @@ img {
 .card__image--click {
   background-image: url(./image/click.png);
 }
+.card__image--pug {
+  background-image: url(./image/pug.png);
+}
+.card__image--chat {
+  background-image: url(./image/chat.png);
+}
+.card__image--dogs {
+  background-image: url(./image/dogs.png);
+}
+.card__image--indi {
+  background-image: url(./image/indi.png);
+}
+.card__image--safebreaker {
+  background-image: url(./image/safebreaker.png);
+}
+.card__image--unpack {
+  background-image: url(./image/unpack.png);
+}
+.card__image--cars {
+  background-image: url(./image/cars.png);
+}
+.card__image--clone {
+  background-image: url(./image/clone.png);
+}
+.card__image--ball {
+  background-image: url(./image/ball.png);
+}
 .card__title {
   color: #696969;
   font-size: 1.25rem;

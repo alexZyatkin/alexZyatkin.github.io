@@ -37,7 +37,7 @@ a:hover {
   padding: 50px 20px;
   padding-top: 100px;
   display: flex;
-  background-image: linear-gradient(-20deg, #7fd2a8 0%, #fecd81 100%);
+  background-image: linear-gradient(-20deg, #9f2ff4 0%, #ffcd42 100%);
 }
 @media screen and (max-width: 768px) {
   .wrapper {
@@ -66,7 +66,7 @@ a:hover {
   overflow: hidden;
   position: relative;
   z-index: 4;
-  box-shadow: 0px 5px 30px 0px rgb(254, 205, 129), 0px 0px 0px 7px rgba(127, 210, 168, 0.5);
+  box-shadow: 0px 5px 30px 0px #9f2ff4, 0px 0px 0px 7px #ffcd42;
 }      
 .profile-card__face {
     display: block;
