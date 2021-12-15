@@ -108,6 +108,15 @@ img {
 .card__image--ball {
   background-image: url(./image/ball.png);
 }
+.card__image--shop {
+  background-image: url(./image/shop.png);
+}
+.card__image--pop {
+  background-image: url(./image/pop.png);
+}
+.card__image--quiz {
+  background-image: url(./image/quiz.png);
+}
 .card__title {
   color: #696969;
   font-size: 1.25rem;
